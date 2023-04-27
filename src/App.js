@@ -6,7 +6,7 @@ export default function App() {
     <div className="App">
     <h1> Weather App</h1>
      <footer> This is project was coded by ✨Faby Granados and is {" "}
-     <a href="https://github.com/Fabygranados/reactapp-final" target="_blank">
+     <a href="https://github.com/Fabygranados/reactapp-final">
       Open-Sourced on GitHub
      </a>
     </footer>
