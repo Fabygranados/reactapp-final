@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="container">
         <Weather />
-      <footer> This is project was coded by ✨Faby Granados and is {" "}
+      <footer> This project was coded by ✨Faby Granados and is {" "}
        <a href="https://github.com/Fabygranados/reactapp-final">
       Open-Sourced on GitHub
       </a>

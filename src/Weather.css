@@ -1,3 +1,70 @@
 .Weather {
     border: 1px solid #dadde1;
+    text-shadow: 1px 1px 1px rgb(71, 105, 136);
+    color: #ebe6e6;
+    padding: 16px;
+    border-radius: 8px;
+    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+}
+
+.Weather form {
+    margin-bottom: 20px;
+    border: none ;
+}
+.Weather .form-control {
+    opacity: .7;
+    border-radius: none;
+    -moz-box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    -webkit-box-shadow: inset 1px 4px 9px -6px rgba(0, 0, 0, 0.5);
+    box-shadow: inset 1px 4px 9px -6px rgba(0,0,0,0.5);
+    
+}
+
+.Weather h1 {
+    color: rgb(40, 89, 104);
+    display: block;
+    font-size: 30px;
+    font-weight: 350;
+    line-height: 29px;
+    padding: 5px 0px 0px;
+}
+
+.Weather ul {
+    margin: 0;
+    padding: 0;
+}
+
+.Weather li {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style: none;
+}
+.Weather img{
+    height: 50%;
+    width: auto;
+    position: absolute;
+    top: 7%;
+    left: 46%;
+    
+}
+
+.Weather .temperature {
+    font-weight: 400;
+    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.595);
+    font-size:84px;
+    color: rgb(40, 89, 104);
+    line-height: 50px;
+    margin-left: 15%;
+}
+
+.Weather .units {
+    color:rgb(40, 89, 104);
+    text-shadow: 1px 2px 2px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: -50px;
+    margin-left: 5px;
+    line-height: 1;
 }
