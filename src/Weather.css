@@ -1,10 +1,10 @@
 .Weather {
-    border: 1px solid #dadde1;
+    border: none;
     text-shadow: 1px 1px 1px rgb(71, 105, 136);
     color: #ebe6e6;
-    padding: 16px;
+    padding: 20px;
     border-radius: 8px;
-    background: linear-gradient(180.3deg, rgb(221, 221, 221) 5.5%, rgb(110, 136, 161) 90.2%);
+    background:rgb(174, 190, 234);
 }
 
 .Weather form {
@@ -41,7 +41,7 @@
     list-style: none;
 }
 .Weather img{
-    height: 50%;
+    height: 45%;
     width: auto;
     position: absolute;
     top: 7%;
