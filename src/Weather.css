@@ -62,29 +62,18 @@
     font-size:84px;
     color: #524b49c7;
     line-height: 50px;
-    margin-left: 105%;
+    margin-left: 150%;
 }
 
-.Weather .metric {
+.Weather .units {
     color:#79706B;
     text-shadow: 1px 2px 2px;
     font-size: 16px;
     font-weight: 400;
-    position: relative;
-    top: -50px;
-    margin-left: 10px;
-    line-height: 1;
+    position: fixed;
+    bottom: 67%;
+    margin-left: 24%;
     text-decoration-line: none;
-}
-.Weather .imperial {
-    color:#79706B;
-    text-shadow: 1px 2px 2px;
-    font-size: 16px;
-    font-weight: 400;
-    position: relative;
-    top: -50px;
-    right: -245px;
-    margin-left: 10px;
-    text-decoration-line: none;
+    text-decoration: none;
     
 }
