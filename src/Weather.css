@@ -37,8 +37,7 @@
 .Weather .weatherDesc{
     margin-top: -15%;
     color: #688455d1;
-    padding: 0px 1px 40px;
-    
+    padding: 0px 1px 20px;
 }
 
 .Weather li {
@@ -63,16 +62,29 @@
     font-size:84px;
     color: #524b49c7;
     line-height: 50px;
-    margin-left: 155%;
+    margin-left: 105%;
 }
 
-.Weather .units {
+.Weather .metric {
     color:#79706B;
     text-shadow: 1px 2px 2px;
     font-size: 16px;
     font-weight: 400;
     position: relative;
     top: -50px;
-    margin-left: 5px;
+    margin-left: 10px;
     line-height: 1;
+    text-decoration-line: none;
+}
+.Weather .imperial {
+    color:#79706B;
+    text-shadow: 1px 2px 2px;
+    font-size: 16px;
+    font-weight: 400;
+    position: relative;
+    top: -50px;
+    right: -245px;
+    margin-left: 10px;
+    text-decoration-line: none;
+    
 }
