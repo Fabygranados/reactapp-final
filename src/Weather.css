@@ -1,11 +1,11 @@
 .Weather {
     border: none;
-    text-shadow: 1px 1px 1px #0d5840b1;
-    color: #ebe6e6;
+    text-shadow: 1px 1px 1px #4f5050dc;
+    color: #464747;
     padding: 20px;
     border-radius: 8px;
-    background:rgba(121, 50, 98, 0.399);
-    box-shadow: 10px 13px 19px 6px rgba(93, 101, 101, 0.2);
+    background:rgba(26, 8, 118, 0.284);
+    box-shadow: 10px 13px 19px 6px rgba(24, 28, 28, 0.392);
 }
 
 .Weather form {
@@ -22,28 +22,32 @@
 }
 
 .Weather h1 {
-    color: #688455d1;
+    color: #313330c4;
     display: block;
     font-size: 35px;
     font-weight: 500;
     line-height: 24px;
-    padding: 0px 30px 6px;
+    padding: 0px 1px 6px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .Weather ul {
-    margin: 0;
-    padding: 0;
+    margin: 5px auto;
+    padding: 02;
 }
 .Weather .weatherDesc{
-    margin-top: -15%;
-    color: #688455d1;
-    padding: 0px 1px 20px;
+    margin-top: -16%;
+    color: #ffffff;
+    padding: 1px 1px 17px;
+    font-style: oblique;
 }
 
 .Weather li {
     font-size: 20px;
-    font-weight: 400;
-    line-height: 20px;
+    letter-spacing: 2.5px;
+    font-weight: 300;
+    line-height: 25px;
     list-style: none;
     
 }
@@ -51,29 +55,30 @@
     height: 25%;
     width: auto;
     position: absolute;
-    top: 18%;
-    left: 56%;
-    opacity: .5;
+    top: 20%;
+    left: 53%;
+    opacity: .8;
 }
 
 .Weather .temperature {
     font-weight: 400;
-    text-shadow: 1px 2px 2px rgba(0, 0, 0, 0.486);
+    position: relative;
+    display: flex;
+    text-shadow: 1px 2px 2px rgba(99, 96, 96, 0.486);
     font-size:84px;
-    color: #524b49c7;
+    color: #f4eeee;
     line-height: 50px;
-    margin-left: 150%;
+   text-align: center;
+   margin: 2px 190px 15px;
 }
 
 .Weather .units {
-    color:#79706B;
+    color:#fffcfa;
     text-shadow: 1px 2px 2px;
     font-size: 16px;
     font-weight: 400;
-    position: fixed;
-    bottom: 67%;
-    margin-left: 24%;
-    text-decoration-line: none;
-    text-decoration: none;
+    position: absolute;
+    margin-left: 17em;
+    margin-top: -4.5em;
     
 }

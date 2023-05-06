@@ -9,7 +9,7 @@ export default function WeatherInfo(props) {
     <h1>{props.data.city}</h1>
     <ul>
         <li><FormattedDate date={props.data.date} /></li>
-        <li>It*s going a <strong className="text-capitalize">{props.data.description}</strong> day</li>
+        <li>It*s a <strong className="text-capitalize">{props.data.description}</strong> day</li>
     </ul>
     <div className="row mt-3">
         <div className="col-6">
@@ -25,9 +25,9 @@ export default function WeatherInfo(props) {
        </div>
     <div className="col-9">
         <ul className="weatherDesc">
-            <li>Wind: {Math.round(props.data.wind)} km/h</li>
-            <li>Feel like: {Math.round(props.data.feels_like)}%</li>
-            <li>Humidity: {props.data.humidity}% </li>
+            <li>⁘Wind : {Math.round(props.data.wind)} km/h</li>
+            <li>⁘Feel like : {Math.round(props.data.feels_like)}°C</li>
+            <li>⁘Humidity : {props.data.humidity}% </li>
         </ul>
     </div>
     </div>

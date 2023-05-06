@@ -19,7 +19,6 @@ export default function WeatherForecastDay(props) {
 
         return days[day];
     }
-
     return(
     <div>
         <div className="WeatherForecastDay">{day()}</div>
