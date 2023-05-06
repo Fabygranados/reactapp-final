@@ -4,7 +4,7 @@
     color: #464747;
     padding: 20px;
     border-radius: 8px;
-    background:rgba(26, 8, 118, 0.284);
+    background:rgba(153, 92, 6, 0.388);
     box-shadow: 10px 13px 19px 6px rgba(24, 28, 28, 0.392);
 }
 
@@ -65,11 +65,11 @@
     position: relative;
     display: flex;
     text-shadow: 1px 2px 2px rgba(99, 96, 96, 0.486);
-    font-size:84px;
+    font-size:78px;
     color: #f4eeee;
     line-height: 50px;
    text-align: center;
-   margin: 2px 190px 15px;
+   margin: 2px 190px 12px;
 }
 
 .Weather .units {
